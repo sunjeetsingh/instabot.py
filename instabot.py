@@ -2,8 +2,8 @@ import requests
 import urllib
 from textblob import TextBlob
 from textblob.sentiments import NaiveBayesAnalyzer
-access_token='2069337528.ae85a26.2bf9438fd3df46fe9bd5d891f06152b9'
-base_url='https://api.instagram.com/v1/'
+access_token='xxxx'
+base_url='https://api.instagram.com'
 def self_info():
     request_url=(base_url+'users/self/?access_token=%s') %(access_token)
     print'request url is: %s' %(request_url)
